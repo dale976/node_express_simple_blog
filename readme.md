@@ -1,3 +1,5 @@
+# Simple demo to show how to build a basic blog with Node, Express and MongoDB
+
 #To run this application you will need to do the following:
 - npm install
 - in cmd window, nav to the dir where mongo is installed
