@@ -1,0 +1,21 @@
+<h1>{{title}}</h1>
+ 
+{{#each entries}}
+    <p>
+        <a href="/article/{{id}}">{{title}}</a><br/>
+        Author: {{author}}<br>
+        Published: {{published}}
+    </p>
+{{/each}}
+
+<div class="container" id="blogEntryForm">
+		<form>
+		 <fieldset>
+		  <legend>Create Entry:</legend>
+		  <input id="titleInput" type="text" placeholder="Title:"><br>
+		  <input id="authorInput" type="text" placeholder="Username:" ><br>
+		  <textarea id="blogText" style="resize:none" rows="10" placeholder="Enter Text:" ></textarea><br>
+		  <button id="btnAddEntry" type="button">Submit</button>
+		 </fieldset>
+		</form>
+</div>
